@@ -1,5 +1,6 @@
 body {
 	font-family: Verdana, Arial, Tahoma, Serif;
+	margin: 0;
 	min-width: 300px;
 }
 
@@ -10,8 +11,9 @@ header {
 main {
 	display: flex;
 	flex-wrap: wrap;
-	grid-gap: 16px;
-	padding: 0 12px;
+	grid-gap: 20px;
+	justify-content: space-around;
+	padding: 0 24px;
 }
 
 figure {
@@ -25,7 +27,7 @@ figure {
 	background: white;
 
 	&:hover {
-		transform: scale(1.2);
+		transform: scale(1.14);
 		z-index: 1;
 	}
 
@@ -35,6 +37,8 @@ figure {
 }
 
 footer {
-	padding: 20px;
-	text-align: center;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	padding: 30px 0 10px;
 }
