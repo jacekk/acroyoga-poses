@@ -1,0 +1,2 @@
+body{min-width:300px;margin:0;font-family:Verdana,Arial,Tahoma,serif}header{text-align:center}main{grid-gap:20px;flex-wrap:wrap;justify-content:space-around;padding:0 24px;display:flex}figure{text-align:center;width:max(250px,20%);background:#fff;border-radius:12px;outline:2px dashed gray;margin:0;padding:12px;transition:transform .2s}figure:hover{z-index:1;transform:scale(1.14)}figure img{max-width:100%}footer{justify-content:center;align-items:center;padding:30px 0 10px;display:flex}
+/*# sourceMappingURL=index.1a32574f.css.map */
