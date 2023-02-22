@@ -20,6 +20,7 @@
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "dependencies": {
     "gh-deploy": "^0.2.3",
+    "gh-pages": "^5.0.0",
     "parcel": "^2.8.3"
   },
   "devDependencies": {
