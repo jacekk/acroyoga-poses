@@ -1,0 +1,8 @@
+{
+  "name": "acroyoga-poses",
+  "version": "1.0.0",
+  "main": "src/index.html",
+  "author": "jacekk",
+  "license": "MIT",
+  "private": true
+}
