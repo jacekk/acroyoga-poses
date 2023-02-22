@@ -1,0 +1,40 @@
+body {
+	font-family: Verdana, Arial, Tahoma, Serif;
+	min-width: 300px;
+}
+
+header {
+	text-align: center;
+}
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+	grid-gap: 16px;
+	padding: 0 12px;
+}
+
+figure {
+	border-radius: 12px;
+	margin: 0;
+	outline: gray dashed 2px;
+	padding: 12px;
+	text-align: center;
+	transition: transform 0.2s;
+	width: max(250px, 20%);
+	background: white;
+
+	&:hover {
+		transform: scale(1.2);
+		z-index: 1;
+	}
+
+	img {
+		max-width: 100%;
+	}
+}
+
+footer {
+	padding: 20px;
+	text-align: center;
+}
